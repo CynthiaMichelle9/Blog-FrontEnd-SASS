@@ -1,5 +1,7 @@
 // Abstracts
 
+@import 'abstracts/mixins';
+
 // Vendors
 
 // Base
@@ -9,12 +11,22 @@
 // Layout
 @import 'layout/header';
 @import 'layout/form-login';
+@import 'layout/footer';
+@import 'layout/article';
+@import 'layout/nav';
+@import 'layout/post';
+@import 'layout/section';
+
 
 // Components
 @import 'components/buttons';
 @import 'components/inputs';
 
 // Pages
-@import 'pages/login'
+@import 'pages/login';
+@import 'pages/signup';
+@import 'pages/subscription';
+@import 'pages/post.scss';
+
 // Themes
 

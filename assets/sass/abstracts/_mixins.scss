@@ -1,0 +1,96 @@
+@mixin categorias-logos {
+    align-items: center;
+    width: 298px;
+
+    &--red {
+        @include categorias-logo-styles(#E93E30);
+    }
+    &--yellow {
+        @include categorias-logo-styles(#F7E018);
+    }
+    &--blue {
+        @include categorias-logo-styles(#299ED5);
+    }
+    &--black {
+        @include categorias-logo-styles(#292C33);
+    }
+    &--green {
+        @include categorias-logo-styles(#67C770);
+    }
+    &--purple {
+        @include categorias-logo-styles(#563D7C);
+    }
+}
+
+@mixin post-styles {
+    &__date {
+        font-size: 16px;
+        font-weight: 400;
+        color: #171717;
+        padding-bottom: 0.4rem;
+        margin-bottom: 0;
+    }
+
+    &__logo {
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+
+        &-img {
+            height: 2rem;
+            border-radius: 50%;
+        }
+
+        &-p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
+
+@mixin section-styles {
+    &__date {
+        padding-top: 3%;
+    }
+
+    &__logo {
+        padding-top: 5%;
+        padding-bottom: 0%;
+
+        &-img {
+            height: 2rem;
+            border-radius: 50%;
+        }
+
+        &-p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+@mixin article-styles {
+    &__logo {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        &-img {
+            height: 2.4rem;
+            border-radius: 50%;
+        }
+
+        &-p {
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+
+    &__date {
+        font-size: 18px;
+        font-weight: 400;
+        color: #171717;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 0;
+    }
+}
