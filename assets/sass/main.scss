@@ -10,7 +10,7 @@
 
 // Layout
 @import 'layout/header';
-@import 'layout/form-login';
+@import 'layout/forms';
 @import 'layout/footer';
 @import 'layout/article';
 @import 'layout/nav';
@@ -21,6 +21,7 @@
 // Components
 @import 'components/buttons';
 @import 'components/inputs';
+@import 'components/logos';
 
 // Pages
 @import 'pages/login';

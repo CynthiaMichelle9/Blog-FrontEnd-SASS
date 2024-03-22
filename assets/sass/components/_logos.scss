@@ -1,0 +1,38 @@
+@import '../abstracts/mixins';
+.categorias {
+    display: grid;
+    grid-column: 2; 
+    grid-row: 1 / 3;
+    padding-left: 10rem;
+
+    &__title {
+        padding-bottom: 1rem;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: end;
+        padding-right: 13%;
+        margin-top: -55px;
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        font-weight: 700;
+        color: #FFFFFF;
+        padding-right: 1rem;
+        justify-content: end;
+        align-self: end;
+    }
+
+    &__logos {
+        @include categorias-logos;
+        align-items: center;
+        width: 298px;
+        margin-bottom: 2rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #171717;
+
+    }
+}
