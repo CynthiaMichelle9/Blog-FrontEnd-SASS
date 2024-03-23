@@ -1,4 +1,5 @@
-@import '../abstracts/mixins';
+@use '../abstracts/mixins';
+
 .article {
 
     @include article-styles;
