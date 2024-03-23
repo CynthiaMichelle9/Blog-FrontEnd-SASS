@@ -1,15 +1,60 @@
-.form-login-logout {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    text-align: center;
+@use '../abstracts/mixins';
 
-    &__title {
-        width: 100%;
-    font-weight: 400;
-    font-size: 36px;
+.form-login {
+    @include forms
+}
+
+.form-logout {
+    @include forms
+}
+
+.container {
+    @include forms;
+}
+
+.form-login__button {
+    @include form-button;
+
+    background-color: #729E2E;
+    color: #fff;
+}
+
+.form-login__button--google {
+    @include form-button;
+
+    background-color: #fff;
     color: #171717;
-    }
+}
+
+.form-login__button-img {
+    @include form-button-img;
+}
+
+.form-login__register-link {
+    @include form-register-link;
+}
+
+
+.form-logout__button {
+    @include form-button;
+
+    background-color: #729E2E;
+    color: #fff;
+}
+
+.form-logout__button--google {
+    @include form-button;
+
+    background-color: #fff;
+    color: #171717;
+}
+
+.form-logout__button-img {
+    @include form-button-img;
+}
+
+.form-logout__register-link {
+    @include form-register-link;
 }
 
 .form-options {
@@ -26,4 +71,3 @@
         margin-bottom: 20px;
     }
 }
-

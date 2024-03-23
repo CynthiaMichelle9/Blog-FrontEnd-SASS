@@ -1,12 +1,13 @@
 @use '../abstracts/mixins';
 
 .nav {
-    @include nav-styles;
-    height: 5em; 
+    height:5em;
+    @include mixins.nav-styles;
+     
     &__login {
         margin-left: auto;
         padding-right: 4rem;
-        padding-top: 2rem;
+        padding-top: 1%;
         font-weight: 700;
 
         a {
