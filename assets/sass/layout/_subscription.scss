@@ -1,0 +1,24 @@
+
+.subscription__container {
+    background-color: #729E2E;
+    width: 90%;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: start; 
+    align-items: center;
+    border-radius: 12px;
+    height: 300px;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+}
+
+
+.subscription__container-title {
+    width: 40%;
+    padding-left: 6rem;
+
+}
+.subscription__title {
+    color: #fff;
+    font-size: 30px;
+}

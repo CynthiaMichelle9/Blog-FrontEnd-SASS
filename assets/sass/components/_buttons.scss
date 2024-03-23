@@ -1,22 +1,12 @@
-.form-login__button {
-    width: 100%;
-    margin: 5px 0;
-    background-color: #729E2E;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
+@use '../abstracts/mixins';
 
-    &--google {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff;
-        color: #171717;
-        margin-bottom: 10px;
-    }
+.form-login__button {
+    @include form-button
+}
+
+.form-logout__button {
+    @include form-button;
+
 }
 
 .form-login__button-img {
@@ -27,4 +17,16 @@
     text-decoration: none;
     font-weight: bold;
     color: #729E2E;
+}
+
+.form-login__login-link {
+    text-decoration: none;
+    font-weight: bold;
+    color:  #fff;
+}
+
+.form-logout__logout-link  {
+    text-decoration: none;
+    font-weight: bold;
+    color:  #fff;
 }

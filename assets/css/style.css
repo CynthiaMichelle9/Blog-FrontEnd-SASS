@@ -89,9 +89,11 @@
 .form-login__button {
   width: 100%;
   margin: 5px 0;
+  background-color: #729E2E;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  color: #fff;
   font-weight: bold;
   font-size: 20px;
   background-color: #729E2E;
@@ -109,9 +111,11 @@
 .form-login__button--google {
   width: 100%;
   margin: 5px 0;
+  background-color: #729E2E;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  color: #fff;
   font-weight: bold;
   font-size: 20px;
   background-color: #fff;
@@ -139,9 +143,11 @@
 .form-logout__button {
   width: 100%;
   margin: 5px 0;
+  background-color: #729E2E;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  color: #fff;
   font-weight: bold;
   font-size: 20px;
   background-color: #729E2E;
@@ -159,9 +165,11 @@
 .form-logout__button--google {
   width: 100%;
   margin: 5px 0;
+  background-color: #729E2E;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  color: #fff;
   font-weight: bold;
   font-size: 20px;
   background-color: #fff;
@@ -424,7 +432,7 @@
   font-weight: 400;
 }
 .section__content {
-  padding-bottom: 4%;
+  padding-bottom: 8%;
 }
 .section__publication {
   width: 100%;
@@ -443,6 +451,29 @@
 .section__subtitle {
   font-size: 20px;
   font-weight: 700;
+}
+
+.subscription__container {
+  background-color: #729E2E;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 12px;
+  height: 300px;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+.subscription__container-title {
+  width: 40%;
+  padding-left: 6rem;
+}
+
+.subscription__title {
+  color: #fff;
+  font-size: 30px;
 }
 
 .form-login__button {
@@ -465,6 +496,26 @@
   margin-bottom: 10px;
 }
 
+.form-logout__button {
+  width: 100%;
+  margin: 5px 0;
+  background-color: #729E2E;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.form-logout__button--google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #171717;
+  margin-bottom: 10px;
+}
+
 .form-login__button-img {
   margin-right: 10px;
 }
@@ -473,6 +524,18 @@
   text-decoration: none;
   font-weight: bold;
   color: #729E2E;
+}
+
+.form-login__login-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-logout__logout-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
 }
 
 .form-login__input {
