@@ -15,15 +15,12 @@
 }
 
 .section {
-
-    @include section-styles;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0; 
     gap: 50px;
-
-
+    @include section-styles;
     &__content {
         padding-bottom: 8%;
     }
