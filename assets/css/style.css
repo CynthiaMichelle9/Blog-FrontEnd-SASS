@@ -277,6 +277,9 @@
   font-weight: 700;
   font-size: 24px;
 }
+.article__subtitle a {
+  text-decoration: none;
+}
 .article__img {
   border-radius: 16px;
   height: 18rem;
@@ -453,27 +456,47 @@
   font-weight: 700;
 }
 
-.subscription__container {
+.subscription {
   background-color: #729E2E;
-  width: 90%;
+  max-width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: start;
   align-items: center;
   border-radius: 12px;
-  height: 300px;
-  margin-bottom: 4rem;
-  margin-top: 6rem;
+  height: 18rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
-
-.subscription__container-title {
-  width: 40%;
-  padding-left: 6rem;
-}
-
 .subscription__title {
+  width: 80%;
   color: #fff;
   font-size: 30px;
+  margin-right: 1rem;
+  padding-left: 6rem;
+  padding-bottom: 1rem;
+}
+.subscription__container-input {
+  width: 100%;
+  padding-left: 6rem;
+}
+.subscription__input {
+  width: 60%;
+  border-radius: 10px;
+  border-style: none;
+  height: 5rem;
+}
+.subscription__button {
+  font-weight: 700;
+  color: #141414;
+  background-color: rgb(168, 168, 168);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 10px;
+  font-size: 24px;
+  border-style: none;
+  margin-left: 6rem;
+  height: 5rem;
 }
 
 .form-login__button {

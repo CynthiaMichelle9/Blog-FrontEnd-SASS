@@ -20,6 +20,9 @@
     &__subtitle {
         font-weight: 700;
         font-size: 24px;
+        a {
+            text-decoration: none;
+        }
     }
 
     &__img {
