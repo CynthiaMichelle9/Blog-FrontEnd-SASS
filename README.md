@@ -11,7 +11,3 @@ Nuestro cliente nos solicitó la creación de 2 páginas más del blog y un comp
   ● Página de registro.
   ● Página del detalle de un post.
   ● Componente de subscripción al blog.
-
-##GitHub Pages
-
-*Enlace*
